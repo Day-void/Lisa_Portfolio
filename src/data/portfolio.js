@@ -1,7 +1,4 @@
-/**
- * Single source of truth for everything on the page.
- * Components stay dumb: they receive slices of this through props.
- */
+
 
 export const profile = {
   firstName: 'Lisa',

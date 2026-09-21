@@ -1,9 +1,5 @@
 import SectionHeading from './SectionHeading'
 
-/**
- * Short introduction, plus the four-step working method.
- * @param {{profile: object, approach: {step: string, detail: string}[]}} props
- */
 export default function About({ profile, approach }) {
   return (
     <section className="section about" id="about">

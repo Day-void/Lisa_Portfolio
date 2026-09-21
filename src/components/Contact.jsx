@@ -1,7 +1,4 @@
-/**
- * Closing section with the ways to reach Lisa.
- * @param {{contact: object}} props
- */
+
 export default function Contact({ contact }) {
   const links = [
     { label: 'Email', value: contact.email, href: `mailto:${contact.email}` },

@@ -1,10 +1,4 @@
-/**
- * Full-screen image viewer. Keyboard handling lives in useLightbox.
- * @param {{
- *   item: object|null, isOpen: boolean, position: number, total: number,
- *   onClose: () => void, onNext: () => void, onPrevious: () => void
- * }} props
- */
+
 export default function Lightbox({
   item,
   isOpen,

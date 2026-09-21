@@ -1,10 +1,6 @@
 import SectionHeading from './SectionHeading'
 import SkillGroup from './SkillGroup'
 
-/**
- * Skills, tools and study.
- * @param {{groups: object[], credentials: object[]}} props
- */
 export default function Skills({ groups, credentials }) {
   return (
     <section className="section skills" id="skills">

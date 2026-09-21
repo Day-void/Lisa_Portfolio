@@ -1,10 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useScrollSpy } from '../hooks'
 
-/**
- * Sticky top navigation.
- * @param {{name: string, sections: {id: string, label: string}[]}} props
- */
 export default function Nav({ name, sections }) {
   const ids = sections.map((section) => section.id)
   const activeId = useScrollSpy(ids)

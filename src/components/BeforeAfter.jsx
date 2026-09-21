@@ -1,14 +1,5 @@
 import { useBeforeAfter } from '../hooks'
 
-/**
- * Draggable comparison between an original and a redesign.
- * Drag anywhere on the image, or focus the slider and use the arrow keys.
- * @param {{
- *   before: string, after: string,
- *   beforeAlt: string, afterAlt: string,
- *   caption?: string, startAt?: number
- * }} props
- */
 export default function BeforeAfter({
   before,
   after,

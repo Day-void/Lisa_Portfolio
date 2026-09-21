@@ -1,9 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 
-/**
- * Open a set of images in a full-screen viewer, with keyboard control.
- * @param {{src: string, alt: string, caption?: string}[]} items
- */
 export function useLightbox(items = []) {
   const [index, setIndex] = useState(null)
   const isOpen = index !== null

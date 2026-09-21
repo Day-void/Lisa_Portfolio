@@ -1,9 +1,5 @@
 import Tag from './Tag'
 
-/**
- * One labelled cluster of skills.
- * @param {{title: string, items: string[], tone?: string}} props
- */
 export default function SkillGroup({ title, items, tone = 'ink' }) {
   return (
     <div className="skill-group">

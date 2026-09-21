@@ -1,9 +1,4 @@
-/* ---------------------------------------------------------------
-   Lisa Mazhambe — portfolio
-   Palette and type are pulled from her own work: the plum and brass
-   of InnerLight, the black-and-gold of Addict, and the ink-drawing
-   portraits that open and close the deck.
-   --------------------------------------------------------------- */
+
 
 :root {
   --ink: #16130f;
@@ -86,8 +81,6 @@ a {
   left: 0;
 }
 
-/* --- navigation ------------------------------------------------ */
-
 .nav {
   position: sticky;
   top: 0;
@@ -144,8 +137,6 @@ a {
   padding: 0.35rem 0.9rem;
   cursor: pointer;
 }
-
-/* --- hero ------------------------------------------------------ */
 
 .hero {
   width: var(--page);
@@ -211,8 +202,6 @@ a {
   background: var(--plum);
 }
 
-/* --- sections -------------------------------------------------- */
-
 .section {
   width: var(--page);
   margin: 0 auto;
@@ -233,8 +222,6 @@ a {
   color: var(--stone);
   max-width: 48ch;
 }
-
-/* --- case studies ---------------------------------------------- */
 
 .case {
   display: grid;
@@ -320,8 +307,6 @@ a {
   color: var(--brass);
 }
 
-/* --- galleries -------------------------------------------------- */
-
 .gallery {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -383,8 +368,6 @@ a {
   color: var(--stone);
   margin-top: 0.55rem;
 }
-
-/* --- before / after --------------------------------------------- */
 
 .compare {
   margin: 0 0 1.5rem;
@@ -484,8 +467,6 @@ a {
   margin-top: 0.6rem;
 }
 
-/* --- about ------------------------------------------------------ */
-
 .about__grid {
   display: grid;
   grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
@@ -530,8 +511,6 @@ a {
   font-size: 0.92rem;
   color: var(--stone);
 }
-
-/* --- skills ----------------------------------------------------- */
 
 .skills__grid {
   display: grid;
@@ -589,8 +568,6 @@ a {
   color: var(--brass);
 }
 
-/* --- contact ---------------------------------------------------- */
-
 .contact {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 0.85fr);
@@ -645,8 +622,6 @@ a {
   width: 100%;
   mix-blend-mode: multiply;
 }
-
-/* --- lightbox --------------------------------------------------- */
 
 .lightbox {
   position: fixed;
@@ -720,8 +695,6 @@ a {
   background: rgba(242, 241, 238, 0.25);
 }
 
-/* --- footer ----------------------------------------------------- */
-
 .footer {
   width: var(--page);
   margin: 0 auto;
@@ -738,8 +711,6 @@ a {
 .footer p {
   margin: 0;
 }
-
-/* --- responsive -------------------------------------------------- */
 
 @media (max-width: 900px) {
   .hero {

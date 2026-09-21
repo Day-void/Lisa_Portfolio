@@ -1,11 +1,5 @@
 import { useEffect, useState } from 'react'
 
-/**
- * Track which section is currently in view so the nav can mark it.
- * @param {string[]} ids element ids to observe, in document order
- * @param {{rootMargin?: string}} [options]
- * @returns {string} id of the section nearest the top of the viewport
- */
 export function useScrollSpy(ids, { rootMargin = '-45% 0px -50% 0px' } = {}) {
   const [activeId, setActiveId] = useState(ids[0] ?? '')
 

@@ -4,10 +4,6 @@ import Lightbox from './Lightbox'
 import SectionHeading from './SectionHeading'
 import { useLightbox } from '../hooks'
 
-/**
- * The work section: every case study, sharing one lightbox.
- * @param {{projects: object[]}} props
- */
 export default function Work({ projects }) {
   const allMedia = useMemo(
     () => projects.flatMap((project) => project.media),

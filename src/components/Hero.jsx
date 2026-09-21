@@ -1,7 +1,4 @@
-/**
- * Opening screen: the name set large over Lisa's ink portrait.
- * @param {{profile: object, onViewWork: () => void}} props
- */
+
 export default function Hero({ profile, onViewWork }) {
   return (
     <section className="hero" id="top">

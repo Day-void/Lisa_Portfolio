@@ -1,9 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 
-/**
- * Pointer + keyboard control for a before/after comparison slider.
- * @param {number} [startAt] initial split position, 0-100
- */
 export function useBeforeAfter(startAt = 50) {
   const containerRef = useRef(null)
   const [position, setPosition] = useState(startAt)

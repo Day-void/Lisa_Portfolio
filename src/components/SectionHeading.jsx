@@ -1,7 +1,4 @@
-/**
- * Shared section title with an optional short standfirst.
- * @param {{title: string, lede?: string, id?: string}} props
- */
+
 export default function SectionHeading({ title, lede, id }) {
   return (
     <div className="heading">

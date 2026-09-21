@@ -2,10 +2,6 @@ import BeforeAfter from './BeforeAfter'
 import Gallery from './Gallery'
 import Tag from './Tag'
 
-/**
- * One case study: sticky description column beside the work itself.
- * @param {{project: object, onOpenImage: (index: number) => void, mediaOffset: number}} props
- */
 export default function ProjectCase({ project, onOpenImage, mediaOffset }) {
   return (
     <article className={`case case--${project.accent}`} id={project.id}>
